@@ -1,0 +1,11 @@
+from OOPS_CONCEPTS.Class_object_demo1 import arithmetic_op
+obj=arithmetic_op()
+obj.find_even_no([12,31,44,55,76])
+r4=obj.fact(5)
+print("\nfact is",r4)
+r1=obj.div(12,5)
+print("\ndiv:",r1)
+r2=obj.mod(12,7)
+print("mod:",r2)
+r3=obj.sub(12,4)
+print("sub:",r3)
